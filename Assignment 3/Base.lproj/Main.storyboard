@@ -16,64 +16,70 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Night-view-Rio-de-Janeiro" translatesAutoresizingMaskIntoConstraints="NO" id="PQD-5v-xlc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RioNight" translatesAutoresizingMaskIntoConstraints="NO" id="PQD-5v-xlc">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="90" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fV1-Hi-eTc" userLabel="top">
-                                <rect key="frame" x="36.666666666666657" y="94" width="320" height="566.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="un5-n6-2v9" userLabel="fullScreen">
+                                <rect key="frame" x="36.666666666666657" y="69" width="320" height="739"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="500" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjP-aO-tis">
-                                        <rect key="frame" x="117.33333333333334" y="0.0" width="85.333333333333343" height="242.33333333333334"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" systemColor="systemGray5Color"/>
-                                        <size key="shadowOffset" width="2" height="2"/>
-                                    </label>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5L-6T-YUR">
-                                        <rect key="frame" x="0.0" y="324" width="320" height="242.33333333333337"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </datePicker>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="105" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ry-j8-CpL" userLabel="bottom">
-                                <rect key="frame" x="121" y="680.33333333333337" width="151" height="137.66666666666663"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogg-Ci-gRm">
-                                        <rect key="frame" x="0.0" y="0.0" width="151" height="42.666666666666664"/>
-                                        <color key="backgroundColor" red="1" green="0.96479147669999998" blue="0.74847501520000004" alpha="0.53473533578470456" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="medium">
-                                            <fontDescription key="titleFontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="44"/>
-                                            <color key="baseForegroundColor" systemColor="labelColor"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSh-fC-EYL">
-                                        <rect key="frame" x="38.999999999999993" y="115" width="73.333333333333314" height="22.666666666666657"/>
-                                        <color key="backgroundColor" red="1" green="0.96479147669999998" blue="0.74847501520000004" alpha="0.54948954679528073" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <color key="shadowColor" systemColor="systemGray5Color"/>
-                                        <size key="shadowOffset" width="2" height="2"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" spacing="90" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fV1-Hi-eTc" userLabel="top">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="513"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="500" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjP-aO-tis">
+                                                <rect key="frame" x="117.33333333333334" y="0.0" width="85.333333333333343" height="58"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" systemColor="systemGray5Color"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
+                                            </label>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5L-6T-YUR">
+                                                <rect key="frame" x="0.0" y="139.66666666666666" width="320" height="373.33333333333337"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="105" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ry-j8-CpL" userLabel="bottom">
+                                        <rect key="frame" x="84.333333333333343" y="533" width="151" height="206"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogg-Ci-gRm">
+                                                <rect key="frame" x="0.0" y="0.0" width="151" height="64"/>
+                                                <color key="backgroundColor" red="1" green="0.96479147669999998" blue="0.74847501520000004" alpha="0.53473533578470456" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="medium">
+                                                    <fontDescription key="titleFontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="44"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSh-fC-EYL">
+                                                <rect key="frame" x="38.999999999999993" y="126" width="73.333333333333314" height="80"/>
+                                                <color key="backgroundColor" red="1" green="0.96479147669999998" blue="0.74847501520000004" alpha="0.54948954679528073" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" systemColor="systemGray5Color"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1ry-j8-CpL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1ng-Om-0e1"/>
-                            <constraint firstItem="fV1-Hi-eTc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="AIF-VE-OF5"/>
-                            <constraint firstItem="fV1-Hi-eTc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DjE-hF-TbR"/>
+                            <constraint firstItem="un5-n6-2v9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="1bT-2I-0Pv"/>
                             <constraint firstItem="PQD-5v-xlc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="JLe-LR-e6R"/>
                             <constraint firstAttribute="bottom" secondItem="PQD-5v-xlc" secondAttribute="bottom" id="JUN-1T-dgl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1ry-j8-CpL" secondAttribute="bottom" id="SgA-XX-ECw"/>
                             <constraint firstItem="PQD-5v-xlc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XvO-qA-tbm"/>
-                            <constraint firstItem="1ry-j8-CpL" firstAttribute="top" secondItem="fV1-Hi-eTc" secondAttribute="bottom" constant="20" id="wAM-cK-t0d"/>
+                            <constraint firstItem="un5-n6-2v9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hyH-rv-zxm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="un5-n6-2v9" secondAttribute="bottom" constant="10" id="mfR-fQ-6Ob"/>
                             <constraint firstItem="PQD-5v-xlc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ziY-cH-jWR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="background" destination="PQD-5v-xlc" id="KBk-4E-GT3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -81,7 +87,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Night-view-Rio-de-Janeiro" width="1600" height="917"/>
+        <image name="RioNight" width="1600" height="917"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
