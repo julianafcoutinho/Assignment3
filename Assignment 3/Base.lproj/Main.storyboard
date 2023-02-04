@@ -23,10 +23,10 @@
                                 <rect key="frame" x="36.666666666666657" y="69" width="320" height="739"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" spacing="90" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fV1-Hi-eTc" userLabel="top">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="513"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="527.66666666666663"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="500" text="label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjP-aO-tis">
-                                                <rect key="frame" x="117.33333333333334" y="0.0" width="85.333333333333343" height="58"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="500" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjP-aO-tis">
+                                                <rect key="frame" x="117.33333333333334" y="0.0" width="85.333333333333343" height="84"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -34,16 +34,16 @@
                                                 <size key="shadowOffset" width="2" height="2"/>
                                             </label>
                                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5L-6T-YUR">
-                                                <rect key="frame" x="0.0" y="139.66666666666666" width="320" height="373.33333333333337"/>
+                                                <rect key="frame" x="0.0" y="166.66666666666663" width="320" height="361"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             </datePicker>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="105" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ry-j8-CpL" userLabel="bottom">
-                                        <rect key="frame" x="84.333333333333343" y="533" width="151" height="206"/>
+                                        <rect key="frame" x="84.333333333333343" y="547.66666666666663" width="151" height="191.33333333333337"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogg-Ci-gRm">
-                                                <rect key="frame" x="0.0" y="0.0" width="151" height="64"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="151" height="59.333333333333336"/>
                                                 <color key="backgroundColor" red="1" green="0.96479147669999998" blue="0.74847501520000004" alpha="0.53473533578470456" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="medium">
@@ -52,7 +52,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSh-fC-EYL">
-                                                <rect key="frame" x="38.999999999999993" y="126" width="73.333333333333314" height="80"/>
+                                                <rect key="frame" x="38.999999999999993" y="119.33333333333337" width="73.333333333333314" height="72"/>
                                                 <color key="backgroundColor" red="1" green="0.96479147669999998" blue="0.74847501520000004" alpha="0.54948954679528073" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="28"/>
                                                 <nil key="textColor"/>
@@ -79,6 +79,8 @@
                     </view>
                     <connections>
                         <outlet property="background" destination="PQD-5v-xlc" id="KBk-4E-GT3"/>
+                        <outlet property="button1" destination="ogg-Ci-gRm" id="uML-kV-bm7"/>
+                        <outlet property="label2" destination="mSh-fC-EYL" id="N2F-aw-0Hy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
