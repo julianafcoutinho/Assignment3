@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3E862B7298F460100E936A2 /* ComfortablyNumb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A3E862B6298F460000E936A2 /* ComfortablyNumb.mp3 */; };
 		A3F342732985E1BF009C0966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F342722985E1BF009C0966 /* AppDelegate.swift */; };
 		A3F342752985E1BF009C0966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F342742985E1BF009C0966 /* SceneDelegate.swift */; };
 		A3F342772985E1BF009C0966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F342762985E1BF009C0966 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A3E862B6298F460000E936A2 /* ComfortablyNumb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ComfortablyNumb.mp3; path = ../../Downloads/ComfortablyNumb.mp3; sourceTree = "<group>"; };
 		A3F3426F2985E1BF009C0966 /* Assignment 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F342722985E1BF009C0966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3F342742985E1BF009C0966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		A3F342662985E1BF009C0966 = {
 			isa = PBXGroup;
 			children = (
+				A3E862B6298F460000E936A2 /* ComfortablyNumb.mp3 */,
 				A3F342712985E1BF009C0966 /* Assignment 3 */,
 				A3F342702985E1BF009C0966 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3F3427F2985E1C2009C0966 /* LaunchScreen.storyboard in Resources */,
+				A3E862B7298F460100E936A2 /* ComfortablyNumb.mp3 in Resources */,
 				A3F3427C2985E1C2009C0966 /* Assets.xcassets in Resources */,
 				A3F3427A2985E1BF009C0966 /* Main.storyboard in Resources */,
 			);
